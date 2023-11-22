@@ -16,7 +16,7 @@ int main()
 
     while (true)
     {
-        rgbLCD.setRGB(0xff, 0xff, 0xff);                 //set the color 
+        rgbLCD.setRGB(0xff, 0xff, 0xff);                 //set the color  grfgerg
         rgbLCD.print("Hello World!");
         led1 = !led1;
         thread_sleep_for(WAIT_TIME_MS);
